@@ -34,7 +34,7 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-6 relative z-10 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-10 lg:gap-12 items-center">
 
           {/* Left: Text */}
           <div>
@@ -141,7 +141,7 @@ export function Hero() {
             initial={{ opacity: 0, x: 36 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center"
           >
             <div className="relative">
               {/* Offset decorative border */}
